@@ -1,0 +1,16 @@
+{
+    "id": "2",
+    "participants": ["Ram", "Ganga"],
+    "messages": [
+      {
+        "sender": "Ram",
+        "time": 1512246342159,
+        "message": "This is Ram. How are you Gucci."
+      },
+      {
+        "sender": "Ganga",
+        "time": 1512246342159,
+        "message": "This is Ganga. How are you Rambo."
+      }
+    ]
+  }

@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(120deg,#f1f1f3, #71a6d8);
+}
+
+nav{
+    margin-top: 25px;
+    background-color:greenyellow;
+    padding: 10px;
+}
+.logout{
+    width: 90px;
+}
+.navItem{
+    display: flex;
+    align-self:center;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+    display: block;
+    width: 70px;
+    height: 50px;
+    margin: auto;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: #71a6d8;
+}
+
+.message-container{
+    display: flex;
+    overflow-y: auto;
+    height: 60vh;
+    flex-direction: column;
+    border: black 2px dotted;
+
+}
+
+.signup-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 60%;
+    border: black 2px dotted;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+.signdiv{
+    height: 30px;
+    padding: 5px;
+    margin: 3px;
+}
+
+.signItem{
+    display: flex;
+}
+    
+.message{
+    background: beige;
+    margin: 15px;
+    border:  blue 2px solid;
+    border-radius: 5px;
+    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message p {
+    margin: 10px;
+}
+
+.sender{
+    align-self: start;
+    clear: both;
+    font-weight: bolder;
+    color: red;
+}
+
+.msg-text{
+    align-self: center;
+}
+
+.time{
+    align-self:flex-end;
+    font-style: italic;
+    color: dimgrey;
+    margin-right: 10px;
+}
+
+ .left{
+    align-self: start;
+}
+
+.right{
+    align-self: flex-end;
+} 
+
+.msg-form{
+    margin: 10px;
+    text-align: center;
+}
+.msg-input{
+    width: 80%;
+    height: 35px;
+    padding: 5px;
+}
+.btn{
+    width: 55px;
+    height: 35px;
+}
+
+.conv{
+    background: beige;
+    margin: 5px;
+    display: flex;
+    height: 35px;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: black 2px solid;
+    border-radius: 3px;
+}
+.conv-text{
+    flex: 1;
+    color: blueviolet;
+}
+.conv-btn{
+    padding: 3px;
+}

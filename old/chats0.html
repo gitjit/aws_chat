@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/site.css">
+    <title>AWS-Chat</title>
+</head>
+
+<body>
+    <nav>
+        <img src="logo.png" class="logo" alt="">
+        <h1>Conversations</h1>
+    </nav>
+    <div class="container">
+        <div class="message-container">
+        </div>
+        <form class="msg-form">
+            <input class="msg-input" type="text">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script  src="./js/app.js"></script>
+    <script type="text/javascript">
+        const submitBtn = document.querySelector(".btn");
+        const msgInput = document.querySelector(".msg-input");
+        msgInput.focus();
+        submitBtn.addEventListener("click", postChat);
+        loadChatDetails();
+     </script>
+</body>
+</html>
